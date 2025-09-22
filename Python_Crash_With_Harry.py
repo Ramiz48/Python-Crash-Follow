@@ -84,3 +84,18 @@ print(x==z **or** x<y)
 print(**not**(False))
 
 print(**not**(True))
+
+
+
+
+**Packages:**
+
+In python there are plenty of packages already installed you can use them just after the installation. use them to reduce your efforts, time as well as efficiency.
+
+like “pip install panda” # type this into the Terminal.. after that it will start installing that particular software.
+Then use it as :
+import pandas # "or you can write it this way to for shortcut" import pandas as pd
+df = pd.read_excel("file.xlsx") # Basically its function from the pandas libarary to read excel file.
+print(df)
+
+
