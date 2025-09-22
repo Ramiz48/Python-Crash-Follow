@@ -88,6 +88,7 @@ print(**not**(True))
 
 
 
+
 **Packages:**
 
 In python there are plenty of packages already installed you can use them just after the installation. use them to reduce your efforts, time as well as efficiency.
@@ -99,3 +100,10 @@ df = pd.read_excel("file.xlsx") # Basically its function from the pandas libarar
 print(df)
 
 
+String Operators:
+name = "Ramiz" # or we can write it in single quotes to like that 'Ramiz'
+print(name)
+print(name[0:3]) # in that case it will return the strings on that locations, like Har etc
+
+#String Methods: We can use latest methods by searching on google "string methods python doc" and there
+#we can see the methods like: str.find, str.format, etc
