@@ -47,3 +47,40 @@ print(”num1 ** num2 is “, num1 ** num2) # it gives us power like 10 power 10
 
 print(”num1 % num2 is “, num1 % num2) # it gives us reminder like 10/1 and reminder will be 1
 
+**2: Assignment Operators:**
+
+A = 4 # in that case our “=” is assignment operator
+
+A += 2 # in that case it added 2 in above A which is = 4 and the ans will be 6.
+
+A -= 2 # will be 2.. hence it is subtracting that values from above A
+
+A *= 2
+
+A /= 2
+
+print(A)
+
+**3: Comparison Operator:** What they do is they compare two operators like:
+
+x = 8
+
+y = 3
+
+print(x>y)
+
+print(x<y)
+
+print(x≠y) # is not equal to
+
+print(x==y) #wheather is equal to or not
+
+4: **Logical Operators:** for making logics
+
+print(x==z **and** x<y)
+
+print(x==z **or** x<y)
+
+print(**not**(False))
+
+print(**not**(True))
