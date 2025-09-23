@@ -124,3 +124,29 @@ fruits.remove("banana") # it will remove banana from the list
 print(fruits)
 #List methods: We can use latest methods by searching on google "list methods python doc" and there
 #we can see the methods like: list.append, list.remove, etc 
+
+#Tuples: Tuples are used to store multiple items in a single variable.
+#Tuples are created using parentheses:
+fruits = ("apple", "banana", "cherry")
+print(fruits)
+print(fruits[0]) # it will return apple
+#Tuples are immutable which means we cannot change, add or remove items after the tuple is
+# created. Hence the below methods will give error if we try to use them.
+#fruits.append("orange") # it will give error
+#Tuple methods: We can use latest methods by searching on google "tuple methods python doc"
+# and there we can see the methods like: tuple.count, tuple.index, etc
+
+
+#Sets: Sets are used to store multiple items in a single variable.
+#Sets are created using curly brackets:
+fruits = {"apple", "banana", "cherry"}
+print(fruits)
+print("apple" in fruits) # it will return True
+fruits.add("orange") # it will add orange to the set
+print(fruits)
+fruits.remove("banana") # it will remove banana from the set
+print(fruits)
+#Set methods: We can use latest methods by searching on google "set methods python doc" and there
+# we can see the methods like: set.add, set.remove, etc
+
+
