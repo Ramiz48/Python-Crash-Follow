@@ -107,3 +107,6 @@ print(name[0:3]) # in that case it will return the strings on that locations, li
 
 #String Methods: We can use latest methods by searching on google "string methods python doc" and there
 #we can see the methods like: str.find, str.format, etc
+
+
+#User input: We use this when we need to get user opinion or any answer from them.
