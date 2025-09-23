@@ -110,3 +110,17 @@ print(name[0:3]) # in that case it will return the strings on that locations, li
 
 
 #User input: We use this when we need to get user opinion or any answer from them.
+name = input("Enter your name: ") # whatever user will write it will be stored in the name variable
+print("Hello " + name)
+
+#Lists: Lists are used to store multiple items in a single variable.
+#Lists are created using square brackets:   
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+print(fruits[0]) # it will return apple
+fruits.append("orange") # it will add orange to the list
+print(fruits)   
+fruits.remove("banana") # it will remove banana from the list
+print(fruits)
+#List methods: We can use latest methods by searching on google "list methods python doc" and there
+#we can see the methods like: list.append, list.remove, etc 
